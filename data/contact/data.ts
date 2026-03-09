@@ -31,9 +31,9 @@ export const CONTACT_INFO: IContactInfo = {
   // 소셜 링크
   socialLinks: [
     {
-      platform: "instagram",
-      handle: "@hyeeuna",
-      url: "https://instagram.com/hyeeuna",
+      platform: "linkedin",
+      handle: "linkedin.com/in/maevena",
+      url: "https://www.linkedin.com/in/maevena",
     },
   ],
 
