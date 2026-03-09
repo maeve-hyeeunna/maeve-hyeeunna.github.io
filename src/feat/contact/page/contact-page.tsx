@@ -100,11 +100,14 @@ const ContactPage = () => {
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center gap-3 text-gray-500 hover:text-black transition-all w-full py-2 hover:bg-gray-50 rounded-lg"
               >
-                {social.platform === "instagram" && (
-                  <svg className="w-4 h-4" strokeWidth={1.5} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-                    <path d="m16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                {social.platform === "linkedin" && (
+                  <svg 
+                    className="w-4 h-4"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                   <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.48 1h.02C3.87 1 4.98 2.12 4.98 3.5ZM.5 8h4V24h-4V8Zm7 0h3.83v2.16h.05c.53-1.01 1.84-2.16 3.79-2.16 4.05 0 4.8 2.66 4.8 6.12V24h-4v-7.01c0-1.67-.03-3.82-2.33-3.82-2.33 0-2.69 1.82-2.69 3.7V24h-4V8Z" />
                   </svg>
                 )}
                 <span className="font-inter text-sm tracking-wide">{social.handle}</span>
